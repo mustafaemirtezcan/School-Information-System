@@ -1,11 +1,5 @@
 # School Information System
 
-REST API for managing schools, students, lecturers, courses and addresses, built with Spring Boot 3 and Java 17. It uses Spring Data JPA with an in-memory H2 database, JWT authentication with Spring Security, and Swagger UI for API documentation.
+A REST API for managing schools, students, lecturers, courses and addresses, built with Spring Boot and Java 17.
 
-## Run
-
-```bash
-./mvnw spring-boot:run
-```
-
-The API runs on `http://localhost:8080`, and the H2 console is available at `/h2-console`.
+Requests are secured with JWT authentication through Spring Security. Data is stored with Spring Data JPA, and the endpoints are documented with Swagger UI.
